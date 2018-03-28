@@ -18,21 +18,21 @@ public class Jurnal1 {
      */
   
     public static void main(String[] args) {
-        Scanner yo=new Scanner(System.in);
+       Scanner yo=new Scanner(System.in);
         System.out.print("Masukan angka :");
         int input=yo.nextInt()+1;
         long fibo[]=new long[input];
         fibo[0]=0;
         fibo[1]=1;
+        long jumlah=1;
         System.out.println("Output :");
-        for (int i = 2; i < input; i++) {
+       for (int i = 2; i < input; i++) {
            fibo[i]=fibo[i-1]+fibo[i-2];
+           jumlah=jumlah + fibo[i];
             
-        }
-        for (int i = 0; i < input; i++) {
-            System.out.print(fibo[i]+ " ");
-            
-        }
+       }
+        
+           System.out.print(jumlah+ " ");
         // TODO code application logic here
     }
     
