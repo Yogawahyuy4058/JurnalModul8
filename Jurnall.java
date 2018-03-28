@@ -16,10 +16,10 @@ public class Jurnall {
      */
     public static void main(String[] args) {
         int l = 1;
-    int tingkat = 10;
-    int n = 12/2;
-    for(int i=1;i<=n;i++){
-    for(int k=n;k>i;k--){
+    int tinggo = 10;
+    int nilai = 12/2;
+    for(int i=1;i<=nilai;i++){
+    for(int k=nilai;k>i;k--){
     System.out.print(" ");
     }
     for(int j=1;j<=l;j++){
@@ -31,8 +31,8 @@ public class Jurnall {
     }
     l -= 4;
 
-    for(int i=(n-1);i>=1;i--){
-    for(int k=i;k<=(n-1);k++){
+    for(int i=(nilai-1);i>=1;i--){
+    for(int k=i;k<=(nilai-1);k++){
     System.out.print(" ");
     }
     for(int j=l;j>=1;j--){
