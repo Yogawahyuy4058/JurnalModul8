@@ -43,6 +43,6 @@ public class Jurnall {
     System.out.println("");
     }
     }
-    
+     
     
 }
